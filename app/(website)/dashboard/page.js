@@ -10,7 +10,7 @@ const DashboardPage = async () => {
     <section className='px-5 py-8'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
         {exercises.map((exercise) =>
-        (<ExerciseCard exercise={exercise} >
+        (<ExerciseCard exercise={exercise} key={exercise.id} >
 
         </ExerciseCard>)
         )}
