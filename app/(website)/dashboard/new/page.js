@@ -40,7 +40,7 @@ const NewExercisePage = () => {
             >
               <option value="amazing">Amazing</option>
               <option value="solid job">Solid Work</option>
-              <option value="glad its over">Glad it's over</option>
+              <option value="glad its over">Glad its over</option>
             </select>
             <label>Rating</label>
             <Input type="number" name="rating" placeholder="Rating" />
